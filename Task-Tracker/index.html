@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Task Tracker — private, local-first work planning.">
+  <title>Task Tracker</title>
+  <script>document.documentElement.dataset.theme='dark'</script>
+  <style>
+    html{--sk-bg:#0b0d0b;--sk-side:#080a08;--sk-card:#111510;--sk-line:rgba(203,209,190,.1)}body{margin:0}.app-skeleton{min-height:100vh;display:grid;grid-template-columns:240px 1fr;background:var(--sk-bg)}.sk-sidebar{background:var(--sk-side);border-right:1px solid var(--sk-line)}.sk-main{padding:34px 40px}.sk-card{height:112px;margin-bottom:18px;border:1px solid var(--sk-line);border-radius:10px;background:var(--sk-card)}@media(max-width:720px){.app-skeleton{display:block}.sk-sidebar{display:none}.sk-main{padding:24px 16px}}
+  </style>
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <script defer src="assets/vendor/chart.umd.min.js"></script>
+  <script defer src="assets/js/storage.js"></script>
+  <script defer src="assets/js/app.js"></script>
+  <link rel="icon" href="assets/images/favicon.ico">
+</head>
+<body data-product="tasks" data-page="home" data-depth="0">
+  <div class="app-skeleton" role="status" aria-label="Loading Task Tracker">
+    <aside class="sk-sidebar"></aside>
+    <main class="sk-main"><div class="sk-card"></div><div class="sk-card"></div><div class="sk-card"></div></main>
+  </div>
+  <noscript>Task Tracker needs JavaScript enabled to save and manage your local data.</noscript>
+</body>
+</html>

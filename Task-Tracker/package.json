@@ -1,0 +1,12 @@
+{
+  "name": "daily-ledger-task-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Standalone local-first task tracker.",
+  "scripts": {
+    "test": "node tests/product-test.js"
+  },
+  "devDependencies": {
+    "jsdom": "24.1.3"
+  }
+}
